@@ -1,25 +1,21 @@
-# NodeJS Udemy - TS Remake
+# NodeJS Udemy - TypeScript Remake
 
-I remade (part of) the projects from the course that I used to first learn NodeJS. This time, I used some new technologies and practices, such as **TypeScript** and **MVC**.
+I have recreated a part of the projects I initially learned in NodeJS, with some upgrades such as **TypeScript** and **MVC** architecture.
 
-Click [here](https://github.com/mwives/nodejs-udemy) to access the "old" version.
+To check out the "old" version based solely on the course content, you can visit [this repository](https://github.com/mwives/nodejs-udemy).
 
 ## Projects
 
-In this repository, you'll find the Back-end of the first two of the three main apps, which is Weather, Task and Chat apps.
-
-Currently, I'm learning ReactJS, so I can build a full version (with Front-end) of those three apps.
+In this repository, you'll discover the Back-end for the first two of the three primary applications: Weather, Task, and Chat apps.
 
 ### Weather App ☁️
 
-This consumes two external APIs: [OpenWeather](https://openweathermap.org/api) and [Mapbox](https://www.mapbox.com/).
+The Weather App leverages two external APIs: [OpenWeather](https://openweathermap.org/api) and [Mapbox](https://www.mapbox.com/).
 
-
-
-The main difference from the original version, is that this doesn't have a Front-end (yet) and fecthes the forecast for the next 7 days.
+As a plus, it efficiently retrieves weather forecasts for the next 7 days.
 
 ### Task App 📝
 
-Just as the original one, I used **Mongoose**, **JWT**, **SendGrid** and **Jest**.
+Similar to the original version, the Task App incorporates **MongoDB** with Mongoose, **JWT** (JSON Web Tokens), **SendGrid** for email sending, and **Jest** for testing.
 
-The main difference in this one, is that besides TypeScript, this uses the **MVC pattern**, **Refresh Tokens** and **more complex tests**.
+In this updated version, alongside TypeScript, the **MVC pattern** has been implemented for enhanced organization and maintainability. It also includes the use of **Refresh Tokens** for added security and implements more comprehensive testing procedures.
